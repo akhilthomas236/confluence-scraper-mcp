@@ -1,0 +1,37 @@
+{
+  "endpoints": [
+    {
+      "name": "Confluence Knowledge Base",
+      "url": "http://localhost:8000/mcp/context",
+      "options": {
+        "max_context_length": 2000,
+        "filter": {
+          "space_key": "MYSPACE",
+          "labels": ["technical-docs", "api-reference"],
+          "include_attachments": true,
+          "include_comments": true
+        }
+      },
+      "authentication": {
+        "type": "none"
+      }
+    },
+    {
+      "name": "Project Documentation",
+      "url": "http://localhost:8000/mcp/context",
+      "options": {
+        "max_context_length": 1500,
+        "filter": {
+          "space_key": "PROJ",
+          "labels": ["architecture", "implementation"],
+          "include_attachments": false,
+          "include_comments": true
+        }
+      },
+      "authentication": {
+        "type": "none"
+      }
+    }
+  ],
+  "default_endpoint": "Confluence Knowledge Base"
+}

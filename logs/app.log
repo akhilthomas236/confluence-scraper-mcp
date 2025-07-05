@@ -1,0 +1,232 @@
+2025-07-05 14:19:42.655 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:19:42.664 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:19:42.665 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:19:43.106 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:19:43.108 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:19:43.108 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:10.061 | ERROR    | app.services.confluence:_clean_html:134 - Error cleaning HTML: expected string or bytes-like object, got 'MagicMock'
+2025-07-05 14:20:10.062 | ERROR    | app.services.confluence:get_page_content:160 - Error getting page content: expected string or bytes-like object, got 'MagicMock'
+2025-07-05 14:20:44.300 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:20:44.318 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:44.321 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:44.573 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:20:44.574 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:44.574 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:57.661 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:20:57.663 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:57.663 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:57.880 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:20:57.881 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:20:57.881 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:19.719 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:21:19.720 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:19.720 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:20.418 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:21:20.419 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:20.419 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:42.677 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:21:42.677 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:42.677 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:43.349 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:21:43.351 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:21:43.351 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:23:04.392 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: Unauthorized (401)
+2025-07-05 14:23:04.393 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Unauthorized (401)
+2025-07-05 14:23:05.101 | ERROR    | app.services.confluence:get_page_content:160 - Error getting page content: Unauthorized (401)
+2025-07-05 14:23:10.754 | ERROR    | app.services.rag:search:86 - Error searching documents: list indices must be integers or slices, not str
+2025-07-05 14:23:14.307 | ERROR    | app.services.rag:search:86 - Error searching documents: list indices must be integers or slices, not str
+2025-07-05 14:23:18.279 | INFO     | app.services.rag:ingest_documents:48 - Successfully ingested 1 documents
+2025-07-05 14:23:44.460 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:23:44.489 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:23:44.490 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:23:44.513 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:23:44.514 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:23:44.514 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:24:20.385 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:24:20.387 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:24:20.387 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:24:20.759 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:24:20.761 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:24:20.761 | ERROR    | app.main:startup_event:64 - Error during startup: Invalid URL '/rest/api/space?limit=50': No scheme supplied. Perhaps you meant https:///rest/api/space?limit=50?
+2025-07-05 14:25:46.714 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:25:46.994 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:25:47.162 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:25:47.162 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:25:47.163 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:25:47.163 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:25:47.163 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:25:47.163 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.252 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:26:18.277 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.277 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.277 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.662 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:26:18.674 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.674 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:18.674 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:26:35.884 | INFO     | app.services.chromadb:add_documents:58 - Added 1 documents to ChromaDB
+2025-07-05 14:26:35.900 | ERROR    | app.services.chromadb:query_documents:125 - Error querying ChromaDB: 'coroutine' object is not subscriptable
+2025-07-05 14:26:36.014 | INFO     | app.services.chromadb:add_documents:58 - Added 1 documents to ChromaDB
+2025-07-05 14:26:36.014 | INFO     | app.services.chromadb:delete_documents:132 - Deleted 1 documents from ChromaDB
+2025-07-05 14:26:36.018 | ERROR    | app.services.confluence:_process_pages:107 - Error processing pages: 'history'
+2025-07-05 14:26:36.019 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 'history'
+2025-07-05 14:26:36.031 | ERROR    | app.services.confluence:get_page_content:160 - Error getting page content: 'space'
+2025-07-05 14:26:39.959 | ERROR    | app.services.rag:search:86 - Error searching documents: list indices must be integers or slices, not str
+2025-07-05 14:26:43.750 | ERROR    | app.services.rag:search:86 - Error searching documents: list indices must be integers or slices, not str
+2025-07-05 14:26:47.473 | INFO     | app.services.rag:ingest_documents:48 - Successfully ingested 1 documents
+2025-07-05 14:27:14.903 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:27:15.195 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:27:15.209 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:15.209 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:15.209 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:15.209 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:15.209 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:15.209 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:33.556 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:27:33.581 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:33.581 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:33.581 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:34.116 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:27:34.144 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:34.145 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:34.145 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:59.034 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:27:59.047 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:59.047 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:27:59.047 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:00.173 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:28:00.179 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:00.179 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:00.179 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.385 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:28:48.385 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:28:48.492 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.492 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.492 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.492 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.492 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:28:48.492 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.349 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:29:01.349 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:29:01.392 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.392 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.392 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.392 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.392 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:01.392 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.088 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:29:15.114 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.114 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.115 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.625 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:29:15.640 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.640 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:29:15.640 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:55.404 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:30:55.430 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:55.431 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:55.431 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:56.111 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:30:56.155 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:56.155 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:30:56.155 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.515 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:08.537 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:08.590 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.590 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.590 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.591 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.591 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:08.591 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:21.520 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:21.527 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:21.527 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:21.527 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:22.059 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:22.107 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:22.107 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:22.107 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:36.310 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:36.335 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:36.335 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:36.335 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:37.221 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:31:37.227 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:37.227 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:31:37.227 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:10.279 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:10.306 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:10.306 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:10.306 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:11.012 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:11.054 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:11.054 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:11.054 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.043 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:25.047 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.047 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.047 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.664 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:25.705 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.705 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:25.705 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.794 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:37.794 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:33:37.833 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.833 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.833 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.833 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.833 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:33:37.834 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.634 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:23.714 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:23.725 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.725 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.725 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.727 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.727 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:23.727 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:41.397 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:41.411 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:41.411 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:41.411 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:42.408 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:42.420 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:42.420 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:42.420 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:55.060 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:55.065 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:55.065 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:55.065 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:56.138 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:36:56.144 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:56.144 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:36:56.144 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:09.387 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:37:09.414 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:09.414 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:09.414 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:12.283 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:37:12.290 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:12.290 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:37:12.290 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.244 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:38:32.244 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 14:38:32.476 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.476 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.476 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.476 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.476 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 14:38:32.476 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 15:44:08.253 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 15:44:08.352 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 15:44:08.352 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 15:44:08.352 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:46.443 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 21:55:46.735 | INFO     | app.main:startup_event:58 - Starting initial Confluence crawl...
+2025-07-05 21:55:47.126 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:47.126 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:47.126 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:47.127 | ERROR    | app.services.confluence:_get_space_content:55 - Error getting space content: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:47.127 | ERROR    | app.services.confluence:crawl:35 - Error crawling Confluence: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page
+2025-07-05 21:55:47.127 | ERROR    | app.main:startup_event:64 - Error during startup: 403 Client Error: Forbidden for url: http://localhost:8080/rest/api/content?spaceKey=TEST&limit=1000&type=page

@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "confluence": {
+    "base_url": "${CONFLUENCE_BASE_URL}",
+    "default_space": "${CONFLUENCE_SPACE_KEY}",
+    "crawl_settings": {
+      "max_pages": 1000,
+      "include_attachments": true,
+      "include_comments": true,
+      "max_depth": 5,
+      "update_frequency": "24h"
+    }
+  },
+  "vector_db": {
+    "chroma": {
+      "persist_directory": "./data/chroma",
+      "collection_name": "confluence_docs",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    }
+  },
+  "rag": {
+    "chunk_size": 512,
+    "chunk_overlap": 50,
+    "top_k": 3,
+    "similarity_threshold": 0.7
+  }
+}

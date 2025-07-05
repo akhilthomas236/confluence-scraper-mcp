@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "confluence-scraper-mcp"
+version = "0.1.0"
+description = "Confluence RAG Data Pipeline with MCP Protocol"
+authors = []
+packages = [{include = "app"}]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+chromadb = "^1.0.0"
+sentence-transformers = "^5.0.0"
+atlassian-python-api = "^4.0.0"
+pydantic = "2.6.0"
+pydantic-settings = "2.2.0"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.0"
+httpx = "^0.28.0"
+beautifulsoup4 = "^4.13.0"
+requests = "^2.32.0"
+pytest-asyncio = "^1.0.0"
+pytest-cov = "^6.2.1"
+pytest-mock = "^3.14.1"
+anyio = "^4.0.0"
+starlette = "^0.36.3"
+typing-extensions = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+pytest-asyncio = "^1.0.0"
+black = "^24.2.0"
+isort = "^5.13.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
+addopts = "--cov=app --cov-report=term-missing -v"
+
+[tool.coverage.run]
+source = ["app"]
+omit = ["tests/*"]
