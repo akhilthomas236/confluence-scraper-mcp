@@ -14,7 +14,7 @@ A Model Context Protocol (MCP) server that provides relevant context from Conflu
 ## Requirements
 
 - Python 3.9 or higher
-- Poetry for dependency management
+- UV for dependency management
 - Confluence API access token
 - ChromaDB for vector storage
 
@@ -25,16 +25,21 @@ A Model Context Protocol (MCP) server that provides relevant context from Conflu
    ```bash
    python --version
    ```
-   - Install Poetry if you haven't already:
+   - Install UV if you haven't already:
    ```bash
-   curl -sSL https://install.python-poetry.org | python3 -
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 2. **Clone and Setup Project:**
    ```bash
    git clone <repository-url>
    cd confluence-scraper-mcp
-   poetry install
+   # Create virtual environment
+   uv venv .venv
+   # Activate virtual environment
+   source .venv/bin/activate
+   # Install dependencies
+   uv pip install -r requirements.txt
    ```
 
 3. **Configure Environment:**
@@ -60,18 +65,27 @@ A Model Context Protocol (MCP) server that provides relevant context from Conflu
 
 ## Usage
 
-1. **Activate Poetry Environment:**
-   ```bash
-   poetry shell
-   ```
-
-2. **Start the MCP Server:**
+1. **Using uvx (Recommended):**
    ```bash
    # Development mode with auto-reload
-   uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+   uvx uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
    
-   # Production mode
-   uvicorn app.main:app --host 0.0.0.0 --port 8000
+   # Run tests
+   uvx pytest
+   
+   # Code formatting and checks
+   uvx black .
+   uvx isort .
+   uvx mypy .
+   ```
+
+2. **Alternative: Using Virtual Environment:**
+   ```bash
+   # Activate virtual environment
+   source .venv/bin/activate
+   
+   # Then run commands as usual
+   uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
    ```
 
 3. **Initial Setup:**
@@ -152,7 +166,7 @@ This MCP server can be integrated with code assistants like GitHub Copilot to pr
         - Note: This basic setup won't include filtering capabilities
         
         **Option 2: MCP Configuration File (Recommended)**
-        - Create `mcp.json` in your workspace for advanced features:
+        - An example configuration file is provided in `examples/mcp.json`
         - Supports Confluence-specific filtering
         - Can configure multiple endpoints for different spaces
         - Allows fine-tuning of context retrieval
@@ -222,79 +236,55 @@ This MCP server can be integrated with code assistants like GitHub Copilot to pr
 
 ## Development
 
-1. **Setup Development Environment:**
+1. **Install Development Dependencies:**
    ```bash
-   # Install dev dependencies
-   poetry install --with dev
-   
-   # Activate virtual environment
-   poetry shell
+   uv pip install -r requirements.txt
    ```
 
-2. **Run Tests:**
+2. **Using uvx for Development:**
+   UV installs a command runner called `uvx` that can run Python scripts and modules without explicitly activating the virtual environment:
    ```bash
-   # Run all tests with coverage
-   pytest tests/ -v --cov=app --cov-report=term-missing
+   # Run the FastAPI server
+   uvx uvicorn app.main:app --reload
    
-   # Run specific test file
-   pytest tests/test_rag.py -v
+   # Run tests
+   uvx pytest
    
-   # Run tests matching a pattern
-   pytest -v -k "chromadb"
+   # Code formatting
+   uvx black .
+   uvx isort .
+   uvx mypy .
    ```
 
-3. **Code Quality:**
+3. **Environment Configuration:**
+   The project uses environment variables for configuration. Copy `.env.example` to `.env` and update the values:
    ```bash
-   # Format code
-   black app/ tests/
-   isort app/ tests/
-   
-   # Type checking
-   mypy app/ tests/
-   
-   # Lint code
-   flake8 app/ tests/
+   CONFLUENCE_BASE_URL=https://your-domain.atlassian.net
+   CONFLUENCE_TOKEN=your-api-token
+   CONFLUENCE_SPACE_KEY=your-space-key
+   CHROMA_PERSIST_DIR=data/chroma
+   CHROMA_COLLECTION_NAME=confluence_docs
+   EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+   CHUNK_SIZE=512
+   CHUNK_OVERLAP=50
+   TOP_K=3
+   SIMILARITY_THRESHOLD=0.7
    ```
-
-4. **Running in Development:**
-   ```bash
-   # Start server with hot reload
-   uvicorn app.main:app --reload --port 8000
-   
-   # Start server with debug logging
-   LOGGING_LEVEL=DEBUG uvicorn app.main:app --reload --port 8000
-   ```
-
-## Configuration
-
-The following environment variables can be configured:
-
-- `CONFLUENCE_BASE_URL`: Your Confluence instance URL
-- `CONFLUENCE_TOKEN`: API token for authentication
-- `CONFLUENCE_SPACE_KEY`: Optional space key to limit crawling
-- `INITIAL_CRAWL`: Whether to crawl on startup (default: false)
-- `CHROMA_PERSIST_DIR`: Directory for ChromaDB storage
-- `EMBEDDING_MODEL`: Sentence transformer model for embeddings
-- `MAX_PAGES`: Maximum pages to crawl per space
-- `INCLUDE_ATTACHMENTS`: Whether to include attachments
-- `INCLUDE_COMMENTS`: Whether to include comments
-
-## Architecture
-
-The project follows a modular architecture:
-
-- `app/api/mcp`: MCP protocol implementation
-- `app/core`: Core configuration and settings
-- `app/services`: Core services (ChromaDB, Confluence, RAG)
-- `app/utils`: Utility functions and helpers
 
 ## Contributing
 
-1. Create a feature branch
-2. Make your changes
-3. Run tests and type checking
-4. Submit a pull request
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes:
+   - Use `uvx black .` and `uvx isort .` to format code
+   - Use `uvx mypy .` for type checking
+   - Add tests for new features
+   - Update documentation as needed
+4. Run tests (`uvx pytest`)
+5. Commit your changes (`git commit -m 'Add some amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
 
 ## License
 
-MIT License
+MIT License. See [LICENSE](LICENSE) for more information.
