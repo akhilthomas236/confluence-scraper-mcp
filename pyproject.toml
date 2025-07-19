@@ -1,43 +1,74 @@
-[tool.poetry]
+[project]
 name = "confluence-scraper-mcp"
-version = "0.1.0"
-description = "Confluence RAG Data Pipeline with MCP Protocol"
-authors = []
-packages = [{include = "app"}]
-license = "MIT"
+version = "0.1.2"
+description = "A Model Context Protocol (MCP) server for Confluence RAG with ChromaDB vector search"
+authors = [
+    {name = "Akhil Thomas", email = "akhilthomas236@example.com"}
+]
+license = {text = "MIT"}
 readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["confluence", "rag", "mcp", "vector-search", "chromadb", "ai", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Documentation",
+]
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.27.0",
+    "chromadb>=0.4.0,<2.0.0",
+    "sentence-transformers>=4.0.0,<6.0.0",
+    "atlassian-python-api>=4.0.0",
+    "pydantic>=2.6.0,<3.0.0",
+    "pydantic-settings>=2.2.0,<3.0.0",
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.0",
+    "httpx>=0.28.0",
+    "beautifulsoup4>=4.13.0",
+    "requests>=2.32.0",
+    "anyio>=4.0.0",
+    "starlette>=0.36.3",
+    "typing-extensions>=4.8.0",
+    "numpy>=1.21.0,<2.0.0",
+    "scikit-learn>=1.0.0,<2.0.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-fastapi = "^0.110.0"
-uvicorn = {extras = ["standard"], version = "^0.27.0"}
-chromadb = "^1.0.0"
-sentence-transformers = "^5.0.0"
-atlassian-python-api = "^4.0.0"
-pydantic = "2.6.0"
-pydantic-settings = "2.2.0"
-python-dotenv = "^1.0.0"
-loguru = "^0.7.0"
-httpx = "^0.28.0"
-beautifulsoup4 = "^4.13.0"
-requests = "^2.32.0"
-pytest-asyncio = "^1.0.0"
-pytest-cov = "^6.2.1"
-pytest-mock = "^3.14.1"
-anyio = "^4.0.0"
-starlette = "^0.36.3"
-typing-extensions = "^4.8.0"
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.0",
+    "pytest-asyncio>=1.0.0",
+    "pytest-cov>=6.2.1",
+    "pytest-mock>=3.14.1",
+    "black>=24.2.0",
+    "isort>=5.13.0",
+    "mypy>=1.8.0",
+]
 
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.4.0"
-pytest-asyncio = "^1.0.0"
-black = "^24.2.0"
-isort = "^5.13.0"
-mypy = "^1.8.0"
+[project.urls]
+Homepage = "https://github.com/akhilthomas236/confluence-scraper-mcp"
+Repository = "https://github.com/akhilthomas236/confluence-scraper-mcp"
+Documentation = "https://github.com/akhilthomas236/confluence-scraper-mcp#readme"
+Issues = "https://github.com/akhilthomas236/confluence-scraper-mcp/issues"
+
+[project.scripts]
+confluence-mcp = "app.main:main"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
 
 [tool.black]
 line-length = 88
